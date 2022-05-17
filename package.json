@@ -1,6 +1,7 @@
 {
-    "name": "fancy-logger",
+    "name": "@jy-kkobug/fancy-logger",
     "version": "1.0.0",
+    "description": "A pretty, simple, and useful logger for browser.",
     "author": {
         "name": "Lee Junyeol",
         "email": "vic2ori@naver.com"

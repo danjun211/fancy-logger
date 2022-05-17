@@ -6,19 +6,19 @@ Fancy Logger is logging library for browser.
 
 ```bash
 // npm
-npm i fancy-logger
+npm i @jy-kkobug/fancy-logger
 
 // yarn
-yarn add fancy-logger
+yarn add @jy-kkobug/fancy-logger
 
 // pnpm
-pnpm i fancy-logger
+pnpm i @jy-kkobug/fancy-logger
 ```
 
 ## Usage
 
 ```typescript
-import FancyLogger, { LoggerColor } from 'fancy-logger';
+import FancyLogger, { LoggerColor } from '@jy-kkobug/fancy-logger';
 
 const logger = FancyLogger.getInstance();
 
