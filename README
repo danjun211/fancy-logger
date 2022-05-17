@@ -1,28 +1,48 @@
 # Fancy Logger
 
-Foobar is a Python library for dealing with word pluralization.
+Fancy Logger is logging library for browser.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
-pip install foobar
+// npm
+npm i fancy-logger
+
+// yarn
+yarn add fancy-logger
+
+// pnpm
+pnpm i fancy-logger
 ```
 
 ## Usage
 
 ```typescript
-import foobar
+import FancyLogger, { LoggerColor } from 'fancy-logger';
 
-# returns 'words'
-foobar.pluralize('word')
+const logger = FancyLogger.getInstance();
 
-# returns 'geese'
-foobar.pluralize('goose')
+logger.debug('test');
+logger.trace('test');
+logger.error('test');
+logger.warn('test');
+logger.log('test', 'group:tag1', LoggerColor.Purple);
+logger.log('test', 'group:tag2', LoggerColor.NeonBlue);
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+console.log(logger.getLogs());
+
+logger.startRecord();
+
+logger.debug('test');
+logger.trace('test');
+logger.error('test');
+logger.warn('test');
+logger.log('test', 'group:tag1', LoggerColor.Purple);
+logger.log('test', 'group:tag2', LoggerColor.NeonBlue);
+
+logger.stopRecord();
+
+console.log(logger.getLogs());
 ```
 
 ## Contributing
