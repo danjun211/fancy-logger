@@ -23,5 +23,13 @@
     },
     "publishConfig": {
         "@jy-kkobug:registry": "https://npm.pkg.github.com"
+    },
+    "bugs": {
+        "url": "https://github.com/jy-kkobug/fancy-logger/issues"
+    },
+    "homepage": "https://github.com/jy-kkobug/fancy-logger",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jy-kkobug/fancy-logger.git"
     }
 }
