@@ -1,6 +1,6 @@
 {
     "name": "@jy-kkobug/fancy-logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A pretty, simple, and useful logger for browser.",
     "author": {
         "name": "Lee Junyeol",
@@ -9,6 +9,9 @@
     "files": [
         "dist"
     ],
+    "types": "index.d.ts",
+    "main": "index.es.js",
+    "module": "index.umd.js",
     "scripts": {
         "dev": "vite",
         "build": "vite build && tsc",
