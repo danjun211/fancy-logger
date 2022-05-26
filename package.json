@@ -1,6 +1,6 @@
 {
     "name": "@rc/fancy-logger",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A pretty, simple, and useful logger for browser.",
     "author": {
         "name": "Lee Junyeol",
