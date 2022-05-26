@@ -1,5 +1,5 @@
 {
-    "name": "@jy-kkobug/fancy-logger",
+    "name": "@rc/fancy-logger",
     "version": "1.0.2",
     "description": "A pretty, simple, and useful logger for browser.",
     "author": {
@@ -25,7 +25,8 @@
         "dayjs": "^1.11.2"
     },
     "publishConfig": {
-        "@jy-kkobug:registry": "https://registry.npmjs.org/"
+        "@jy-kkobug:registry": "https://registry.npmjs.org/",
+        "@rc:registry": "http://172.25.235.48:4873"
     },
     "bugs": {
         "url": "https://github.com/jy-kkobug/fancy-logger/issues"
