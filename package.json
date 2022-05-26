@@ -9,9 +9,9 @@
     "files": [
         "dist"
     ],
-    "types": "index.d.ts",
-    "main": "index.es.js",
-    "module": "index.umd.js",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.es.js",
+    "module": "./dist/index.umd.js",
     "scripts": {
         "dev": "vite",
         "build": "vite build && tsc",
